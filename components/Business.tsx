@@ -4,10 +4,16 @@ import Button from "./Button";
 import Image from "next/image";
 import { FeatredCardProps } from "@types";
 
-const FeaturesCard: React.FC<FeatredCardProps> = ({ icon, title, content, index }) => (
+const FeaturesCard: React.FC<FeatredCardProps> = ({
+  icon,
+  title,
+  content,
+  index,
+}) => (
   <div
-    className={`flex flex-row p-6 rounded-[20px] ${index !== features.length - 1 ? "mb-6" : "mb-0"
-      } feature-card`}
+    className={`flex flex-row p-6 rounded-[20px] ${
+      index !== features.length - 1 ? "mb-6" : "mb-0"
+    } feature-card`}
   >
     <div
       className={`w-[64px] h-[64px] rounded-full bg-dimBlue ${styles.flexCenter}`}
