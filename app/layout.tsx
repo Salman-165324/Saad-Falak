@@ -1,7 +1,7 @@
 import "@/styles/globals.css";
 export const metadata = {
-  title: "Saad Falak",
-  description: "Hoobank is an Modern Landing Page built with Next JS and Typescript"
+  title: "UK Business Loan & Merchant Card Machine Consultant | Saad Falak",
+  description: "Get expert help securing UK business loans and card machines. Saad Falak, licensed consultant with 6+ years of experience. Free advice for UK merchants."
 };
 
 const RootLayout = ({ children }: { children: React.ReactNode; }) => {
