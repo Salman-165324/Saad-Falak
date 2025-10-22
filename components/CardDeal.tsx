@@ -10,8 +10,9 @@ const CardDeal: React.FC = () => (
         steps.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Arcu tortor, purus in mattis at sed integer faucibus. Aliquet quis
-        aliquet eget mauris tortor.c Aliquet ultrices ac, ametau.
+        Hi, I&apos;m Saad Falak, a UK-based business loan and merchant card
+        machine consultant with over 6 years of experience in the payment and
+        finance industry.
       </p>
       <Button styles="mt-10" />
     </div>

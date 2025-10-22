@@ -38,9 +38,9 @@ const Business: React.FC = () => (
         We'll handle the money.
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial lif e by
-        building credit, earning rewards and saving money. But with hundreds of
-        credits cards on the market.
+        Hi, I&apos;m Saad Falak, a UK-based business loan and merchant card
+        machine consultant with over 6 years of experience in the payment and
+        finance industry.
       </p>
       <Button styles="mt-10" />
     </div>

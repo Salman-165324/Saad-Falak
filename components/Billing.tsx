@@ -14,15 +14,12 @@ const Billing: React.FC = () => (
     </div>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        Easily control your <br className="sm:block hidden" /> billing &
-        invoicing.
+      Making Payments and Funding <br className="sm:block hidden" />  Simple for UK Businesses
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean
-        neque. Integer Fusce ipsum ori rhounsx aliporttitor integer platea
-        placerat.
+      Throughout my career, I’ve worked closely with hundreds of UK merchants, helping them access the right financial and payment solutions to grow their businesses. From small startups to established retailers, my goal has always been to make funding and payment systems simple, transparent, and stress-free.
       </p>
-      <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
+      {/* <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
         <Image
           src={apple}
           alt="apple_store"
@@ -33,7 +30,7 @@ const Billing: React.FC = () => (
           alt="google_play"
           className="w-[128px] h-[42px] object-contain cursor-pointer"
         />
-      </div>
+      </div> */}
     </div>
   </section>
 );
