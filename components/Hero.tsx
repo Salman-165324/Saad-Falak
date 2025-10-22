@@ -8,11 +8,11 @@ const Hero: React.FC = () => (
       className={`flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6`}
     >
       <div className="flex flex-row justify-between items-center w-full">
-        <h1 className="flex-1 font-poppins font-semibold ss:text-[36px] text-[26px] text-white ss:leading-[50px] leading-[37px]">
+        <h1 className="flex-1 font-poppins font-semibold ss:text-[40px] text-[24px] text-white ss:leading-[50px] leading-[37px]">
           Your Trusted UK <span className="text-gradient">Business Loan</span>{" "}
         </h1>
       </div>
-      <h1 className="w-full font-poppins font-semibold ss:text-[34px] text-[26px] text-white ss:leading-[50px] leading-[37px]">
+      <h1 className="w-full font-poppins font-semibold ss:text-[36px] text-[24px] text-white ss:leading-[50px] leading-[37px]">
         & Merchant Card Machine Consultant
       </h1>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
