@@ -21,10 +21,10 @@ const FeaturesCard: React.FC<FeatredCardProps> = ({
       <Image src={icon} alt="icon" className="w-[50%] h-[50%] object-contain" />
     </div>
     <div className="flex-1 flex flex-col ml-3">
-      <h4 className="font-poppins font-semibold text-white text-[18px] leading-[24px]">
+      <h4 className="font-poppins font-semibold text-white text-[18px] ">
         {title}
       </h4>
-      <p className="font-poppins font-normal text-dimWhite text-[16px] leading-[24px]">
+      <p className="font-poppins font-normal text-dimWhite text-[16px] ">
         {content}
       </p>
     </div>
@@ -42,7 +42,7 @@ const Business: React.FC = () => (
         machine consultant with over 6 years of experience in the payment and
         finance industry.
       </p>
-      <Button styles="mt-10" />
+   
     </div>
     <div className={`${layout.sectionImg} flex-col`}>
       {features.map((feature, index) => (
