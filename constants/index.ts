@@ -13,6 +13,8 @@ import {
   send,
   shield,
   star,
+  bill,
+  card,
 } from "@/public/assets";
 
 export const navLinks = [
@@ -189,6 +191,45 @@ export const socialMedia = [
     id: "social-media-4",
     icon: linkedin,
     link: "https://www.linkedin.com/",
+  },
+];
+
+export const services = [
+  {
+    id: "service-1",
+    icon: bill,
+    title: "UK Business Loan Solutions",
+    description:
+      "Looking for a UK business loan that fits your goals? I help business owners connect with approved lenders offering fast, flexible, and transparent funding options — no guarantor or mortgage required.",
+    features: [
+      "Quick approval and easy process",
+      "Flexible daily or weekly repayments",
+      "Competitive terms from trusted lenders",
+    ],
+  },
+  {
+    id: "service-2",
+    icon: card,
+    title: "Merchant Card Machine Services",
+    description:
+      "As a merchant card machine consultant, I help UK businesses choose the most reliable and cost-effective payment solutions. From contactless terminals to online payment gateways, I work with leading UK card machine providers.",
+    features: [
+      "Secure and simple setup",
+      "All major cards supported",
+      "Transparent pricing and ongoing support",
+    ],
+  },
+  {
+    id: "service-3",
+    icon: people01,
+    title: "Expert Financial & Merchant Support",
+    description:
+      "Over the years, I've consulted hundreds of UK merchants to help them grow their business through better finance and payment solutions. Whether you're a startup or an established company, I provide free, honest, and practical advice.",
+    features: [
+      "Free expert consultation",
+      "Tailored advice for your business type",
+      "Licensed to work with various lenders and payment partners",
+    ],
   },
 ];
 
