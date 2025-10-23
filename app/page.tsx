@@ -35,8 +35,8 @@ const Home: React.FC = () => {
             <CardDeal />
             <Services />
             {/* <Testimonials /> */}
-            <Clients />
-            <CTA />
+            {/* <Clients />
+            <CTA /> */}
             <Footer />
           </div>
         </div>

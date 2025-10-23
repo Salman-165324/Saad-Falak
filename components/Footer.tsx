@@ -17,7 +17,7 @@ const Footer: React.FC = () => (
       </div>
       <div className="flex-[1.5] w-full flex flex-col md:items-center items-start md:mt-0 mt-10">
         <div className="w-full max-w-[600px]">
-          <h4 className="font-poppins font-semibold text-[24px] leading-[32px] text-white mb-8 text-center">
+          <h4 className="font-poppins font-semibold text-[24px] lg:text-[32px] leading-[32px] text-white mb-8 text-center">
             Let's Discuss Your Business Goals
           </h4>
 
