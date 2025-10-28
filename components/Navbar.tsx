@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { close, logo, menu } from "@/public/assets";
+import { close, logo, menu, logo2 } from "@/public/assets";
 import { navLinks } from "@/constants";
 import Image from "next/image";
 
@@ -8,7 +8,7 @@ const Navbar: React.FC = () => {
   const [toggle, setToggle] = useState(false);
   return (
     <nav className="w-full flex py-6 justify-between items-center navbar">
-      <Image src={logo} alt="Saad Falak" width={124} height={32} />
+      <Image src={logo2} alt="Saad Falak" width={269} height={50} />
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {navLinks.map((nav, index) => (
           <li

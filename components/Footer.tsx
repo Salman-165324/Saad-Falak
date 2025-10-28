@@ -1,18 +1,21 @@
 import styles from "@/styles/style";
-import { logo } from "@/public/assets";
+import { logo2 } from "@/public/assets";
 import { socialMedia } from "@/constants";
 import Image from "next/image";
 const Footer: React.FC = () => (
-  <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
+  <section
+    id="contact"
+    className={`${styles.flexCenter} ${styles.paddingY} flex-col`}
+  >
     <div className={`${styles.flexCenter} md:flex-row flex-col mb-8 w-full`}>
       <div className="flex-1 flex flex-col justify-start mr-10">
         <Image
-          src={logo}
+          src={logo2}
           alt="saad falak"
-          className="w-[266px] h-[72px] object-contain"
+          className="w-[266px] h-[49px] object-contain"
         />
-        <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>
-          A new way to make the payment easy, reliable amd secure.
+        <p className={`${styles.paragraph} mt-4 max-w-[340px]`}>
+          Loan Solution, Card Machine Services & Expert Financial and Merchant Support
         </p>
       </div>
       <div className="flex-[1.5] w-full flex flex-col md:items-center items-start md:mt-0 mt-10">
@@ -22,6 +25,16 @@ const Footer: React.FC = () => (
           </h4>
 
           <div className="flex flex-col lg:flex-row lg:justify-center lg:space-x-8 space-y-4 lg:space-y-0">
+            <div className="flex items-center justify-center lg:justify-start space-x-3">
+              <span className="text-2xl">📞</span>
+              <a
+                href="tel:+447577004838"
+                className="font-poppins font-normal text-[16px] leading-[24px] text-dimWhite hover:text-secondary cursor-pointer transition-colors duration-300"
+              >
+                Call: +44 7577 004838
+              </a>
+            </div>
+
             <div className="flex items-center justify-center lg:justify-start space-x-3">
               <span className="text-2xl">📱</span>
               <a

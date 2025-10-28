@@ -26,6 +26,7 @@ import people03 from "./people03.png";
 import UKBusinessLoanSolution from "./UKBusinessLoanSolution.png";
 import MerchantCardMachineServices from "./MerchantCardMachineServices.png"
 import MarchentSupportIcon from "./MarchentSupportIcon.png"
+import logo2 from "./logo2.png"
 
 export {
   airbnb,
@@ -55,5 +56,6 @@ export {
   people03,
   UKBusinessLoanSolution,
   MerchantCardMachineServices, 
-  MarchentSupportIcon
+  MarchentSupportIcon,
+  logo2
 };
