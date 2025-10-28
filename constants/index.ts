@@ -15,6 +15,9 @@ import {
   star,
   bill,
   card,
+  UKBusinessLoanSolution,
+  MerchantCardMachineServices,
+  MarchentSupportIcon,
 } from "@/public/assets";
 
 export const navLinks = [
@@ -197,7 +200,7 @@ export const socialMedia = [
 export const services = [
   {
     id: "service-1",
-    icon: bill,
+    icon: UKBusinessLoanSolution,
     title: "UK Business Loan Solutions",
     description:
       "Looking for a UK business loan that fits your goals? I help business owners connect with approved lenders offering fast, flexible, and transparent funding options — no guarantor or mortgage required.",
@@ -209,7 +212,7 @@ export const services = [
   },
   {
     id: "service-2",
-    icon: card,
+    icon: MerchantCardMachineServices,
     title: "Merchant Card Machine Services",
     description:
       "As a merchant card machine consultant, I help UK businesses choose the most reliable and cost-effective payment solutions. From contactless terminals to online payment gateways, I work with leading UK card machine providers.",
@@ -221,7 +224,7 @@ export const services = [
   },
   {
     id: "service-3",
-    icon: people01,
+    icon: MarchentSupportIcon,
     title: "Expert Financial & Merchant Support",
     description:
       "Over the years, I've consulted hundreds of UK merchants to help them grow their business through better finance and payment solutions. Whether you're a startup or an established company, I provide free, honest, and practical advice.",

@@ -23,6 +23,9 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
+import UKBusinessLoanSolution from "./UKBusinessLoanSolution.png";
+import MerchantCardMachineServices from "./MerchantCardMachineServices.png"
+import MarchentSupportIcon from "./MarchentSupportIcon.png"
 
 export {
   airbnb,
@@ -50,4 +53,7 @@ export {
   people01,
   people02,
   people03,
+  UKBusinessLoanSolution,
+  MerchantCardMachineServices, 
+  MarchentSupportIcon
 };
