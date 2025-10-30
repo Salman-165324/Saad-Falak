@@ -17,7 +17,7 @@ const CardDeal: React.FC = () => (
       
     </div>
     <div className={layout.sectionImg}>
-      <Image src={card} alt="card" className="w-[100%] h-[100%]" />
+      <Image src={card} alt="card" quality={100} className="w-[100%] h-[100%]" />
     </div>
   </section>
 );

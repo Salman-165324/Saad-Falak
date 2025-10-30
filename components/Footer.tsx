@@ -3,23 +3,12 @@ import { logo2 } from "@/public/assets";
 import { socialMedia } from "@/constants";
 import Image from "next/image";
 const Footer: React.FC = () => (
-  <section
-    id="contact"
-    className={`${styles.flexCenter} ${styles.paddingY} flex-col`}
-  >
-    <div className={`${styles.flexCenter} md:flex-row flex-col mb-8 w-full`}>
-      <div className="flex-1 flex flex-col justify-start mr-10">
-        <Image
-          src={logo2}
-          alt="saad falak"
-          className="w-[266px] h-[49px] object-contain"
-        />
-        <p className={`${styles.paragraph} mt-4 max-w-[340px]`}>
-          Loan Solution, Card Machine Services & Expert Financial and Merchant Support
-        </p>
-      </div>
-      <div className="flex-[1.5] w-full flex flex-col md:items-center items-start md:mt-0 mt-10">
-        <div className="w-full max-w-[600px]">
+  <section id="contact" className={`${styles.paddingY} flex flex-col`}>
+    <div
+      className={`flex xl:flex-row flex-col mb-8 w-full items-center xl:items-start justify-center xl:justify-between gap-10 xl:gap-6`}
+    >
+      <div className="order-1 xl:order-2 flex-[1.5] w-full flex flex-col items-center xl:items-start mt-10 xl:mt-0">
+        <div className="w-full">
           <h4 className="font-poppins font-semibold text-[24px] lg:text-[32px] leading-[32px] text-white mb-8 text-center">
             Let's Discuss Your Business Goals
           </h4>
@@ -63,6 +52,17 @@ const Footer: React.FC = () => (
             business loan or merchant card machine solutions.
           </p>
         </div>
+      </div>
+      <div className="order-2 xl:order-1 flex flex-col items-center text-center xl:items-start xl:text-left md:max-w-[360px] w-full">
+        <Image
+          src={logo2}
+          alt="saad falak"
+          className="w-[266px] h-[49px] object-contain"
+        />
+        <p className={`${styles.paragraph} mt-4 max-w-[340px]`}>
+          Loan Solution, Card Machine Services & Expert Financial and Merchant
+          Support
+        </p>
       </div>
     </div>
     <div className="w-full flex justify-between items-center md:flex-row flex-col pt-6 border-t-[1px] border-t-[#3F3E45]">
